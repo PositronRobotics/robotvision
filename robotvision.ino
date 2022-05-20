@@ -127,6 +127,9 @@ setup()
     delay(500);
   }
 
+  Serial.print("WIFI_SSID:");
+  Serial.println(WIFI_SSID);
+
   Serial.print("http://");
   Serial.println(WiFi.localIP());
   Serial.println("  /cam.bmp");
